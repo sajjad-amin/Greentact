@@ -14,3 +14,5 @@
 .cxx
 local.properties
 extras
+app/release
+app/build
