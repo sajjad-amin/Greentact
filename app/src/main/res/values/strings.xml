@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Greentact</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="about">About</string>
+    <string name="about_dev">About Developer</string>
+    <string name="about_dev_desc">Muhammad Sajjad Amin\nBatch: 211\nDepartment of CSE\nGreen University of Bangladesh</string>
+    <string name="description">Greentact consists of Green and Contact. It helps to rapidly communicate to any department of the Green University of Bangladesh.\nIt is not an official app of GUB. All phone numbers and emails are collected from green.edu.bd/contact\n\nShare this app:</string>
+</resources>

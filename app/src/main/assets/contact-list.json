@@ -1,0 +1,124 @@
+[
+    {
+        "domain": "Admission",
+        "mobile": [
+            "+8801324713502",
+            "+8801324713503",
+            "+8801324713504",
+            "+8801324713505",
+            "+8801324713506",
+            "+8801324713507",
+            "+8801324713508"
+        ],
+        "email": "admission@green.edu.bd"
+    },
+    {
+        "domain": "Payment, Financial, Waiver/Aids, etc.",
+        "mobile": [
+            "+8801324713543",
+            "+8801324713544",
+            "+8801324713545",
+            "+8801324713546",
+            "+8801324713547"
+        ],
+        "email": "accounts.office@green.edu.bd"
+    },
+    {
+        "domain": "Examination, Admit Cards, Results, Transcripts, Certificates, etc.",
+        "mobile": ["+8801324713515"],
+        "email": "exam.office@green.edu.bd"
+    },
+    {
+        "domain": "Online Semester Drops, Course Add/Replacement, Re-Admission, etc.",
+        "mobile": [
+            "+8801324713509",
+            "+8801324713511"
+        ],
+        "email": "info.registrar@green.edu.bd"
+    },
+    {
+        "domain": "Departmental Queries",
+        "dept": [
+            {
+                "domain": "CSE",
+                "mobile": ["+8801324713532"],
+                "email": "do.cse@green.edu.bd"
+            },
+            {
+                "domain": "EEE",
+                "mobile": ["+8801324713530"],
+                "email": "do.eee@green.edu.bd"
+            },
+            {
+                "domain": "Textile",
+                "mobile": ["+8801324713531"],
+                "email": "do.tex@green.edu.bd"
+            },
+            {
+                "domain": "GBS",
+                "mobile": ["+8801324713534"],
+                "email": "do.gbs@green.edu.bd"
+            },
+            {
+                "domain": "LAW",
+                "mobile": ["+8801324713533"],
+                "email": "do.law@green.edu.bd"
+            },
+            {
+                "domain": "English, Sociology and JMC",
+                "mobile": ["+8801324713535"],
+                "email": "do.eng@green.edu.bd"
+            },
+            {
+                "domain": "Language Center",
+                "mobile": ["+8801324713540"],
+                "email": "gulc.office@green.edu.bd"
+            },
+            {
+                "domain": "Permanent Campus",
+                "mobile": ["+8801324713538"],
+                "email": "do.pc1@green.edu.bd"
+            }
+        ]
+    },
+    {
+        "domain": "Online forms and IT related queries",
+        "mobile": ["+8801324713523"],
+        "email": "it.office@green.edu.bd"
+    },
+    {
+        "domain": "Disciplinary",
+        "mobile": ["+8801324713548"],
+        "email": "proctor@green.edu.bd"
+    },
+    {
+        "domain": "Library",
+        "mobile": ["+8801324713526"],
+        "email": "library.office@green.edu.bd"
+    },
+    {
+        "domain": "Career Development and Alumni",
+        "mobile": ["+8801324713519"],
+        "email": "ccd.office@green.edu.bd"
+    },
+    {
+        "domain": "Logistic Supports",
+        "mobile": ["+8801324713513"],
+        "email": "logistic.office@green.edu.bd"
+    },
+    {
+        "domain": "Public Relations",
+        "mobile": ["+8801324713521"],
+        "email": "pro@green.edu.bd"
+    },
+    {
+        "domain": "Front Desk Office",
+        "mobile": ["+8801324713500"],
+        "email": "fdo@green.edu.bd"
+    },
+    {
+        "domain": "Security",
+        "mobile": ["+8801324713528"],
+        "email": ""
+    }
+]
