@@ -1,4 +1,4 @@
-package com.sajjadamin.greentact.helper;
+package com.sajjadamin.greentact.dataset;
 
 public class DeptData {
     private String title, email, phone;

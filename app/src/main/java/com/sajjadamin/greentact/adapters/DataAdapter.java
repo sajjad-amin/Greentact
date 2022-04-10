@@ -33,13 +33,10 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.DataViewHolder
     @Override
     public void onBindViewHolder(@NonNull DataViewHolder holder, int position) {
         holder.phone.setText(data.get(position));
-        holder.phoneBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
-                phoneIntent.setData(Uri.parse("tel:"+data.get(position)));
-                context.startActivity(phoneIntent);
-            }
+        holder.phoneBtn.setOnClickListener(v -> {
+            Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+            phoneIntent.setData(Uri.parse("tel:"+data.get(position)));
+            context.startActivity(phoneIntent);
         });
     }
 

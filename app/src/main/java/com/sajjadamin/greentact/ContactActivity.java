@@ -10,18 +10,16 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.sajjadamin.greentact.adapters.DataAdapter;
 import com.sajjadamin.greentact.adapters.DataDeptAdapter;
-import com.sajjadamin.greentact.helper.DeptData;
+import com.sajjadamin.greentact.dataset.DeptData;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ContactActivity extends AppCompatActivity {
 

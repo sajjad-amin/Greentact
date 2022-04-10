@@ -2,15 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/personal_contact"
+        android:id="@+id/add_contact_menu"
         android:title="@string/about"
-        android:icon="@drawable/personal_contact"
+        android:icon="@drawable/add_contact_icon"
         app:showAsAction="ifRoom"
-        />
-    <item
-        android:id="@+id/about"
-        android:title="@string/about"
-        android:icon="@drawable/about_icon"
-        app:showAsAction="never"
         />
 </menu>

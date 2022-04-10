@@ -11,10 +11,14 @@
         <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/layout/about_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/layout/activity_contact.xml" value="0.36666666666666664" />
         <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/layout/activity_personal_contact.xml" value="0.33" />
+        <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/layout/add_or_update_contact_dialog.xml" value="0.33" />
         <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/layout/data_dept_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/layout/data_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/layout/domain_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/layout/personal_contact_layout.xml" value="0.30085470085470084" />
         <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/menu/main_activity_titlebar_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/menu/personal_contact_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Documents/AndroidStudioProjects/GreenTact/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1825" />
       </map>
     </option>

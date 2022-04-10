@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.sajjadamin.greentact.R;
-import com.sajjadamin.greentact.helper.DeptData;
+import com.sajjadamin.greentact.dataset.DeptData;
 
 import java.util.ArrayList;
 
@@ -37,24 +37,18 @@ public class DataDeptAdapter extends RecyclerView.Adapter<DataDeptAdapter.DataDe
         holder.dept.setText(data.get(position).getTitle());
         holder.phone.setText(data.get(position).getPhone());
         holder.email.setText(data.get(position).getEmail());
-        holder.phoneBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
-                phoneIntent.setData(Uri.parse("tel:"+data.get(position).getPhone()));
-                context.startActivity(phoneIntent);
-            }
+        holder.phoneBtn.setOnClickListener(v -> {
+            Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+            phoneIntent.setData(Uri.parse("tel:"+data.get(position).getPhone()));
+            context.startActivity(phoneIntent);
         });
-        holder.emailBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent emailIntent = new Intent(Intent.ACTION_SEND);
-                String[] recipients = {data.get(position).getEmail()};
-                emailIntent.putExtra(Intent.EXTRA_EMAIL,recipients);
-                emailIntent.setType("text/html");
-                emailIntent.setPackage("com.google.android.gm");
-                context.startActivity(Intent.createChooser(emailIntent,"Send Email"));
-            }
+        holder.emailBtn.setOnClickListener(v -> {
+            Intent emailIntent = new Intent(Intent.ACTION_SEND);
+            String[] recipients = {data.get(position).getEmail()};
+            emailIntent.putExtra(Intent.EXTRA_EMAIL,recipients);
+            emailIntent.setType("text/html");
+            emailIntent.setPackage("com.google.android.gm");
+            context.startActivity(Intent.createChooser(emailIntent,"Send Email"));
         });
     }
 

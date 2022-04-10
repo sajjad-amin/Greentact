@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
@@ -54,8 +55,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if(item.getItemId() == R.id.about){
-            showAboutInfo();
+        switch (item.getItemId()){
+            case R.id.personal_contact:
+                startActivity(new Intent(MainActivity.this,PersonalContactActivity.class));
+                break;
+            case R.id.about:
+                showAboutInfo();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
